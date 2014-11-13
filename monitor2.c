@@ -323,15 +323,7 @@ int main(int argc, char **argv)
 	reg_gpc[3][i]=0;
     } 
 
-
     while(1){
-	/*
-	if(!print_flg){
-	    printf("\x1B[2J");
-	}else{
-	    printf("\n");
-	}
-	*/
 	usleep(PRINT_PERIODIC);
 	nvc0_debug();
     }
